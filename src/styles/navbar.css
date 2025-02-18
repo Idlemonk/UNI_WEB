@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    top: 0%;
+    height: 50px;
+    background: #800000;
+    padding-left: 2%;
+    padding-right: 4%;
+    right: auto;
+   
+}
+.logo {
+    width: 70%;
+    font-family: cursive;
+}
+.link {
+    text-decoration: none;
+    color: black;
+    width: auto;
+    color: #FFF5E1;
+}
+.link-head {
+    width:  14.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+button {
+    cursor: pointer;
+}
+.navbtn {
+    background: black;
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 15px;
+    border-radius: 5px;
+}
+.navbtn:hover {
+ background: white;
+ color: black;
+ transition: 0.3s ease-in-out;
+}
+@font-face {
+    font-family: brico;
+    src: url('../assets/Bricolage_Grotesque/static/BricolageGrotesque-SemiBold.ttf');
+}
+.logo .link {
+    font-family: brico;
+}

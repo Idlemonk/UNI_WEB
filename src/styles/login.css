@@ -1,0 +1,91 @@
+
+.login {
+    width: 35%;
+    height: auto;
+   
+    margin: 80px auto 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-radius: 5px;
+    /* box-shadow: 1px 2px 5px 1px #dadada; */
+    margin-bottom: 20px;
+}
+
+form {
+    width: 80%;
+    height: 70%;
+   
+}
+label, input {
+    display: block;
+}
+input {
+    height: 35px;
+    width: 100%;
+    margin-bottom: 15px;   
+    border: none;
+    outline: none; 
+    border-bottom: 2px solid rgb(71, 114, 116);
+}
+input[type = 'email'], input[type='password'] {
+    background: white;
+}
+ h2 {
+    margin-top: 52px;
+    margin-bottom: 32px;
+}
+@keyframes focus {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.formbtn {
+    width: 100%;
+    height: 45px;
+    background:rgb(71, 114, 116);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.formbtn:hover {
+    opacity: 0.8;
+}
+.input {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    border-bottom: 2px solid rgb(71, 114, 116);
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.eye {
+    background: transparent;
+    width: 35px;
+    height: 35px;
+    border: none;   
+}
+input[type = password] {
+    border: none;
+    outline: none;
+    height: 30px;
+}
+input[type = password]:focus {
+    border: none;
+    outline: none;
+}
+.links {
+    text-decoration: none;
+ color: rgb(71, 114, 116);
+}
